@@ -1,0 +1,1 @@
+start cmd.exe /k "python Dank_Money_Bot.py"

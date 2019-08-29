@@ -21,7 +21,8 @@ async def beg_for_money():
 	while not client.is_closed:
 		await client.send_message(discord.Object(id="562991872679608321"), "pls beg")
 		await asyncio.sleep(65)
-	
+	        await client.send_message(discord.Object(id="562991872679608321"), "pls give @midwxlks 500 coins")
+		await asyncio.sleep(120)
 
 #t = threading.Timer(5, Kontroll_Check)
 #t.start()
